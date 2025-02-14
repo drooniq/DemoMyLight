@@ -133,3 +133,4 @@ C:\Users\seemwaa001\RiderProjects\DemoMyLight\obj\Debug\net9.0\refint\Avalonia\D
 C:\Users\seemwaa001\RiderProjects\DemoMyLight\obj\Debug\net9.0\DemoLigh.7028A0BE.Up2Date
 C:\Users\seemwaa001\RiderProjects\DemoMyLight\obj\Debug\net9.0\DemoLightMenu.genruntimeconfig.cache
 C:\Users\seemwaa001\RiderProjects\DemoMyLight\obj\Debug\net9.0\ref\DemoLightMenu.dll
+C:\Users\isotope\RiderProjects\DemoLightMenu\DemoLightMenu\obj\Debug\net9.0\DemoLightMenu.sourcelink.json

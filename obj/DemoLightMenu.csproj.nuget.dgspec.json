@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\seemwaa001\\RiderProjects\\DemoMyLight\\DemoLightMenu.csproj": {}
+    "C:\\Users\\isotope\\RiderProjects\\DemoLightMenu\\DemoLightMenu\\DemoLightMenu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\seemwaa001\\RiderProjects\\DemoMyLight\\DemoLightMenu.csproj": {
+    "C:\\Users\\isotope\\RiderProjects\\DemoLightMenu\\DemoLightMenu\\DemoLightMenu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\seemwaa001\\RiderProjects\\DemoMyLight\\DemoLightMenu.csproj",
+        "projectUniqueName": "C:\\Users\\isotope\\RiderProjects\\DemoLightMenu\\DemoLightMenu\\DemoLightMenu.csproj",
         "projectName": "DemoLightMenu",
-        "projectPath": "C:\\Users\\seemwaa001\\RiderProjects\\DemoMyLight\\DemoLightMenu.csproj",
-        "packagesPath": "C:\\Users\\seemwaa001\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\seemwaa001\\RiderProjects\\DemoMyLight\\obj\\",
+        "projectPath": "C:\\Users\\isotope\\RiderProjects\\DemoLightMenu\\DemoLightMenu\\DemoLightMenu.csproj",
+        "packagesPath": "C:\\Users\\isotope\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\isotope\\RiderProjects\\DemoLightMenu\\DemoLightMenu\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\seemwaa001\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\isotope\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

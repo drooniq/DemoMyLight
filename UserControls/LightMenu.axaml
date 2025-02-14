@@ -6,5 +6,51 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="DemoLightMenu.UserControls.LightMenu">
     
-    <TextBox Text="{Binding Path=IconHeight, RelativeSource={RelativeSource AncestorType=userControls:LightMenu}}"></TextBox>
+    <!--
+    <TextBox Text="{Binding IconHeight, RelativeSource={RelativeSource AncestorType=userControls:LightMenu}}"></TextBox>
+    -->
+<Grid Width="{Binding IconWidth, RelativeSource={RelativeSource AncestorType=userControls:LightMenu}}"
+      Height="{Binding IconHeight, RelativeSource={RelativeSource AncestorType=userControls:LightMenu}}">
+    <!-- Menu Button -->
+    <Button Background="DarkRed"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Click="OnMenuButtonClick">
+        <Border Background="Transparent"
+                CornerRadius="{Binding IconWidth, RelativeSource={RelativeSource AncestorType=userControls:LightMenu}}">
+            <StackPanel Orientation="Vertical"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <Ellipse Width="{Binding DotSize, RelativeSource={RelativeSource AncestorType=userControls:LightMenu}}"
+                         Height="{Binding DotSize, RelativeSource={RelativeSource AncestorType=userControls:LightMenu}}"
+                         Fill="White"/>
+                <Ellipse Width="{Binding DotSize, RelativeSource={RelativeSource AncestorType=userControls:LightMenu}}"
+                         Height="{Binding DotSize, RelativeSource={RelativeSource AncestorType=userControls:LightMenu}}"
+                         Fill="White"/>
+                <Ellipse Width="{Binding DotSize, RelativeSource={RelativeSource AncestorType=userControls:LightMenu}}"
+                         Height="{Binding DotSize, RelativeSource={RelativeSource AncestorType=userControls:LightMenu}}"
+                         Fill="White"/>
+            </StackPanel>
+        </Border>
+    </Button>
+
+    <!-- Popup Menu -->
+    <Popup IsOpen="{Binding IsMenuOpen, RelativeSource={RelativeSource AncestorType=userControls:LightMenu}}"
+           Placement="Bottom">
+        <Border Background="White"
+                BorderBrush="Black"
+                BorderThickness="1"
+                CornerRadius="5"
+                Padding="5"
+                Width="150">
+            <ItemsControl ItemsSource="{Binding MenuItems, RelativeSource={RelativeSource AncestorType=userControls:LightMenu}}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Title}" Padding="5"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </Border>
+    </Popup>
+</Grid>
 </UserControl>

@@ -15,17 +15,17 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DemoLightMenu
-build_property.ProjectDir = C:\Users\seemwaa001\RiderProjects\DemoMyLight\
+build_property.ProjectDir = C:\Users\isotope\RiderProjects\DemoLightMenu\DemoLightMenu\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/seemwaa001/RiderProjects/DemoMyLight/App.axaml]
+[C:/Users/isotope/RiderProjects/DemoLightMenu/DemoLightMenu/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/seemwaa001/RiderProjects/DemoMyLight/UserControls/LightMenu.axaml]
+[C:/Users/isotope/RiderProjects/DemoLightMenu/DemoLightMenu/UserControls/LightMenu.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/seemwaa001/RiderProjects/DemoMyLight/Views/MainWindow.axaml]
+[C:/Users/isotope/RiderProjects/DemoLightMenu/DemoLightMenu/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
